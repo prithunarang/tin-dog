@@ -1,0 +1,126 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+#title{
+ background-color: #ff4c68;
+ color: azure;
+}
+h1{
+    font-family: 'Secular One', sans-serif;
+    size: 4rem;
+    line-height: 1.5;
+    margin-left: 100px;
+}
+h2{
+    font-family: "Montserrat-bold";
+    line-height: 1.5rem;
+    font-weight: bold;
+    size: 60px;
+}
+.container-fluid{
+    padding-left: 3%;
+    padding-right: 3%;
+    padding-top: 5%;
+    padding-bottom: 100px;
+    margin-bottom: 50px;
+}
+.navbar-brand{
+   font-family: Ubuntu;
+   font-size: 2.5rem;
+   font-weight: bold;
+   margin-left: 100px;
+   margin-bottom: 2.5rem;
+}
+.navbar{
+    margin-bottom:0 0 4.5rem;
+}
+.nav-item{
+    padding: 0 18px;
+    margin-bottom: 2.5rem;
+}
+.nav-link{
+    font-size: 1.2rem;
+}
+.button{
+    margin-left: 100px;
+    margin-top: 50px;
+}
+.title-img {
+  width: 50%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 30%;
+}
+#features{
+    padding: 7% 15%;
+    background-color: #fff;
+    position: relative;
+}
+.col-lg-4{
+    margin-bottom: 200px;
+    text-align: center;
+}
+.icon{
+    margin-bottom: 1rem;
+    color: #ef8172;
+}
+.icon:hover{
+    color: #ff4c68;
+    transition: 0.75s;
+}
+#testimonials{
+    text-align: center;
+    background-color: #ef8172;
+}
+.carousel-item{
+    padding: 7% 15%;
+}
+.testimonials-image{
+    border-radius: 100%;
+    margin: 20px;
+    width: 20%;
+    margin-left: 100px;
+}
+#press{
+    background-color:  #ef8172;
+    padding-bottom: 2%;
+    text-align: center;
+}
+.press-logo{
+    width: 15%;
+    padding: 20px 20px 50px;
+}
+#pricing{
+    padding: 100px;
+    text-align: center;
+}
+.pricing-column {
+    padding: 3% 2%;
+}
+@media (max-width: 1028px){
+    .title-img{
+        position: static;
+        transform: rotate(0);
+    }
+    #title{
+        text-align: center;
+    }
+}
+#cta{
+    background-color: #ff4c68;
+    text-align: center;
+    font-weight: bold;
+    color: white;
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+.last-btn{
+    margin-left: 15px;
+    margin-right: 15px;
+}
+#footer{
+    text-align: center;
+}
+.fab{
+    margin-bottom: 15px;
+}
